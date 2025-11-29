@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VILLEGE Image</title>
+    <style>
+        /* إعادة تعيين المسافات */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* يغطي كامل ارتفاع الشاشة */
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 80vh; /* لا تتجاوز 80% من ارتفاع الشاشة */
+            height: auto;
+            width: auto;
+            object-fit: contain; /* تضمن عدم قص الصورة */
+            border-radius: 10px; /* شكل جميل */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
-    <h1>VILLEGE Image</h1>
-    <img src="w.png" alt="VILLEGE Image" style="max-width:100%; height:auto;">
+    <h1></h1>
+    <img src="w.png" alt=" ">
 </body>
 </html>
